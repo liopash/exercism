@@ -1,0 +1,32 @@
+(ns two-fer)
+(defn two-fer [x]
+   (let [name (if (blank? x) "you" x))
+   (str "One for " name ", one for me.")) 
+(defn two-fer [x]
+   (let [name (if (blank? x) "you" x))
+   (str "One for " name ", one for me.")) 
+(defn two-fer [x]
+   (let [name (if (blank? x) "you" x))
+(defn two-fer [x]
+   (let [name (if (blank? x) "you" x)]
+   (str "One for " name ", one for me.")) 
+)
+(empty? "")
+(empty? nil)
+(blank?? nil)
+(ns two-fer)
+(defn two-fer [x]
+   (let [name (if (empty? x) "you" x)]
+   (str "One for " name ", one for me.")) 
+)
+(two-fer "Johny")
+(two-fer )
+(two-fer "")
+exit
+(defn two-fer 
+   ([name] (str "One for " name ", one for me."))
+   ([] (str "One for you, one for me."))) 
+(two-fer)
+(two-fer "Mary"))
+(two-fer "Mary")
+exit
