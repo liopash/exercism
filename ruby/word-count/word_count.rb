@@ -9,7 +9,7 @@ class Phrase
   end
   
   def word_count
-    @s.each_with_object(@w_count=Hash.new(0)) { |x, w_count|
+    @s.each_with_object(Hash.new(0)) { |x, w_count|
           w_count[x] += 1 }
   end
 
