@@ -1,31 +1,33 @@
 <?php
 
-class School {
+class School
+{
 
-    protected $school;
+    protected $school = [];
 
-    public function __construct(){
-
-        $this->school = [];
-        
-    }
-
-    public function add($name, $grade){
-        if (key_exists($grade, $this->school)) {
-            $this->school[$grade] = sort(array_merge([$name], $this->school[$grade]));
-        } else {
-            $this->school[$grade] = [$name];
-        }
-    }
-
-    public function grade($grade){
-        
-        
-    }
-    public function getSchool(){
-
+    public function add(string $name, string $grade) : array
+    {
+        $this->school[$grade][] = $name;
         return $this->school;
-        
+    }
+
+    public function grade(string $grade) : array
+    {
+        return $this->school[$grade] ?? [];
+    }
+
+    public function numberOfStudents() : int
+    {
+        return array_sum(array_map('count', $this->school));
+
+    }
     
+    public function studentsByGradeAlphabetical() : array
+    {
+        return array_map(function ($item) {
+            sort($item);
+            return $item;
+        }, $this->school);
+
     }
 }
