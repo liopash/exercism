@@ -1,0 +1,46 @@
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:7:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("[]") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:12:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:17:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("[[") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:22:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("}{") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:27:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("{]") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:32:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("{ }") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:37:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("{[])") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:42:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("{[]}") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:47:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("{}[]") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:52:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("([{}({}[])])") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:57:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("{[)][]}") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:62:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("([{])") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:67:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("[({]})") should be(false)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:72:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired("(((185 + 223.85) * 15) - 543)/2") should be(true)[0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/test/scala/BracketPushTest.scala:77:5: not found: value BracketPush[0m
+[0m[[0m[31merror[0m] [0m[0m    BracketPush.isPaired([0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0m15 errors found[0m

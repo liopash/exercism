@@ -1,0 +1,134 @@
+{
+    "version" : "1.1.2",
+    "project" : {
+        "name" : "bracket-push",
+        "directory" : "/home/tomasbarcak/exercism/scala/bracket-push",
+        "sources" : [
+            "/home/tomasbarcak/exercism/scala/bracket-push/src/main/scala-2.12",
+            "/home/tomasbarcak/exercism/scala/bracket-push/src/main/scala",
+            "/home/tomasbarcak/exercism/scala/bracket-push/src/main/java",
+            "/home/tomasbarcak/exercism/scala/bracket-push/target/scala-2.12/src_managed/main"
+        ],
+        "dependencies" : [
+        ],
+        "classpath" : [
+            "/home/tomasbarcak/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar",
+            "/home/tomasbarcak/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar"
+        ],
+        "out" : "/home/tomasbarcak/exercism/scala/bracket-push/.bloop/bracket-push",
+        "classesDir" : "/home/tomasbarcak/exercism/scala/bracket-push/.bloop/bracket-push/scala-2.12/classes",
+        "resources" : [
+            "/home/tomasbarcak/exercism/scala/bracket-push/src/main/resources",
+            "/home/tomasbarcak/exercism/scala/bracket-push/target/scala-2.12/resource_managed/main"
+        ],
+        "scala" : {
+            "organization" : "org.scala-lang",
+            "name" : "scala-compiler",
+            "version" : "2.12.1",
+            "options" : [
+            ],
+            "jars" : [
+                "/home/tomasbarcak/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.12.1.jar",
+                "/home/tomasbarcak/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar",
+                "/home/tomasbarcak/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.12.1.jar",
+                "/home/tomasbarcak/.ivy2/cache/org.scala-lang.modules/scala-xml_2.12/bundles/scala-xml_2.12-1.0.6.jar",
+                "/home/tomasbarcak/.ivy2/cache/jline/jline/jars/jline-2.14.1.jar"
+            ],
+            "setup" : {
+                "order" : "mixed",
+                "addLibraryToBootClasspath" : true,
+                "addCompilerToClasspath" : false,
+                "addExtraJarsToClasspath" : false,
+                "manageBootClasspath" : true,
+                "filterLibraryFromClasspath" : true
+            }
+        },
+        "java" : {
+            "options" : [
+            ]
+        },
+        "test" : {
+            "frameworks" : [
+                {
+                    "names" : [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names" : [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                }
+            ],
+            "options" : {
+                "excludes" : [
+                ],
+                "arguments" : [
+                ]
+            }
+        },
+        "platform" : {
+            "name" : "jvm",
+            "config" : {
+                "home" : "/usr/lib/jvm/java-8-openjdk-amd64/jre",
+                "options" : [
+                ]
+            },
+            "mainClass" : [
+            ]
+        },
+        "resolution" : {
+            "modules" : [
+                {
+                    "organization" : "org.scala-lang",
+                    "name" : "scala-library",
+                    "version" : "2.12.1",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-library",
+                            "path" : "/home/tomasbarcak/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.12.1.jar"
+                        },
+                        {
+                            "name" : "scala-library",
+                            "classifier" : "sources",
+                            "path" : "/home/tomasbarcak/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization" : "org.scala-lang.modules",
+                    "name" : "scala-parser-combinators_2.12",
+                    "version" : "1.0.5",
+                    "artifacts" : [
+                        {
+                            "name" : "scala-parser-combinators_2.12",
+                            "path" : "/home/tomasbarcak/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/bundles/scala-parser-combinators_2.12-1.0.5.jar"
+                        },
+                        {
+                            "name" : "scala-parser-combinators_2.12",
+                            "classifier" : "sources",
+                            "path" : "/home/tomasbarcak/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.12/srcs/scala-parser-combinators_2.12-1.0.5-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

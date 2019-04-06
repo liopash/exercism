@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/grade-school/src/main/scala/School.scala:7:13: not found: value mem[0m
+[0m[[0m[31merror[0m] [0m[0m        if (mem.contains(g)) { mem += (g -> (mem(g)++List(name)))  }[0m
+[0m[[0m[31merror[0m] [0m[0m            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/grade-school/src/main/scala/School.scala:7:32: not found: value mem[0m
+[0m[[0m[31merror[0m] [0m[0m        if (mem.contains(g)) { mem += (g -> (mem(g)++List(name)))  }[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/grade-school/src/main/scala/School.scala:7:46: not found: value mem[0m
+[0m[[0m[31merror[0m] [0m[0m        if (mem.contains(g)) { mem += (g -> (mem(g)++List(name)))  }[0m
+[0m[[0m[31merror[0m] [0m[0m                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/grade-school/src/main/scala/School.scala:8:16: not found: value mem[0m
+[0m[[0m[31merror[0m] [0m[0m        else { mem += (g -> List(name))  }[0m
+[0m[[0m[31merror[0m] [0m[0m               ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m

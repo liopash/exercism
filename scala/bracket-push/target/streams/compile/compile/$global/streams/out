@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/bracket-push/src/main/scala/BracketPush.scala:15:19: reassignment to val[0m
+[0m[[0m[31merror[0m] [0m[0m       } else chr = List('_')         [0m
+[0m[[0m[31merror[0m] [0m[0m                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

@@ -1,0 +1,6 @@
+#FileLock
+#Wed Feb 13 05:31:35 UTC 2019
+hostName=penguin
+id=168e556c62e5854711e5a1d2704559ef31221545292
+method=file
+server=127.0.1.1\:41969

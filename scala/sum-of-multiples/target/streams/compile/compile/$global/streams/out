@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/tomasbarcak/exercism/scala/sum-of-multiples/src/main/scala/SumOfMultiples.scala:3:5: illegal start of simple expression[0m
+[0m[[0m[31merror[0m] [0m[0m    def loop(factors, limit, acc: Int): Int = [0m
+[0m[[0m[31merror[0m] [0m[0m    ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
