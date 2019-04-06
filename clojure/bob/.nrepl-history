@@ -1,0 +1,22 @@
+(filter  #(Character/isLetter %) "")
+(filter  #(Character/isLetter %) "1 2 3")
+(ns bob)
+(defn response-for [s] 
+    (cond
+      (every? #(Character/isUpperCase %) (filter  #(Character/isLetter %) s)) "Whoa, chill out!"
+      (= \? (last s)) "Sure."
+      (empty? (filter  #(Character/isLetter %) s))  "Fine. Be that way!"
+      :else "Whatever."
+))
+(response-for "  ")
+(bob/response-for "  ")
+      (every? #(Character/isUpperCase %) (filter  #(Character/isLetter %) s)) "Whoa, chill out!"
+      (every? #(Character/isUpperCase %) (filter  #(Character/isLetter %) "   "))
+(ns bob)
+(defn response-for [s] 
+    (cond
+      (every? #(Character/isUpperCase %) (filter  #(Character/isLetter %) s)) "Whoa, chill out!"
+      (= \? (last s)) "Sure."
+      (empty? (filter  #(Character/isLetter %) s))  "Fine. Be that way!"
+      :else "Whatever."
+))

@@ -1,0 +1,67 @@
+(def b 9)
+b
+(length b)
+(count 999)
+(count (str 999))
+(** 2 3)
+(ns armstrong-numbers
+      (:require [clojure.math.numeric-tower :as math]))
+(defn exp [x n]
+  (loop [acc 1 n n]
+    (if (zero? n) acc
+        (recur (* x acc) (dec n)))))
+(exp 2 6)
+(exp 2 8)
+(exp 2 7)
+(exp 2 6)
+(def x (str 984))
+x
+(into [] x)x
+(into [] x)
+(into [] 984))
+(into [] 984)
+(into [] "984")
+(first (into [] "984"))
+(int (first (into [] "984")))
+(read-string (first (into [] "984")))
+(read-char (first (into [] "984")))
+(read-character (first (into [] "984")))
+(str 828289)
+(seq (str 828289)
+)
+(Character/getNumericValue \8)
+(Character/getNumericValue (first (into [] "984")))
+(Character/getNumericValue (rest (into [] "984")))
+(Character/getNumericValue (second (into [] "984")))
+(defn exp [x n]
+  (loop [acc 1 n n]
+    (if (zero? n) acc
+        (recur (* x acc) (dec n)))))
+(defn armstrong? [n]
+    (let [nn (count (str n))
+          arr (into [] (str n))]
+         (map (exp (Character/getNumericValue x) nn) arr)))
+(armstrong? 153)
+(ns armstrong-numbers)
+(defn exp [x n]
+  (loop [acc 1 n n]
+    (if (zero? n) acc
+        (recur (* x acc) (dec n)))))
+(defn armstrong? [n]
+    (let [nn (count (str n))
+          arr (into [] (str n))]
+         (map #(exp (Character/getNumericValue %) nn) arr)))
+(armstrong? 153)
+(reduce + (armstrong? 153))
+(ns armstrong-numbers)
+(defn exp [x n]
+  (loop [acc 1 n n]
+    (if (zero? n) acc
+        (recur (* x acc) (dec n)))))
+(defn armstrong? [n]
+    (let [nn (count (str n))
+          arr (into [] (str n))]
+         (= n (reduce + (map #(exp (Character/getNumericValue %) nn) arr)))))
+(armstrong? 153)
+(armstrong? 154)
+exit

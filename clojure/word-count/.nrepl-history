@@ -1,0 +1,27 @@
+(defn words [sentence]
+  (let [counter (fn [m w] (if (m w)
+                              (assoc m w (+ (m w)))
+                              (assoc m w 1)))]
+  (->> sentence
+       (clojure.string/lower-case)
+       (re-seq #"\b[a-z0-9']+\b")
+       (reduce counter {}))))
+(words "niekedu je to riadny toto shit to je shit")
+(defn words [sentence]
+  (let [counter (fn [m w] (if (m w)
+                              (assoc m w (+ (m w) 1))
+                              (assoc m w 1)))]
+  (->> sentence
+       (clojure.string/lower-case)
+       (re-seq #"\b[a-z0-9']+\b")
+       (reduce counter {}))))
+(words "niekedu je to riadny toto shit to je shit")
+(defn words [sentence]
+  (let [counter (fn [m w] (if (m w)
+                              (assoc m w (+ (m w) 1))
+                              (assoc m w 1)))]
+  (->> sentence
+       (clojure.string/lower-case)
+       (re-seq #"\b[a-z0-9']+\b")
+       (frequencies))))
+(words "niekedu je to riadny toto shit to je shit")
